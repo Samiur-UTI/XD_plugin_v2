@@ -1,0 +1,21 @@
+{
+    "id": "7bf430b2",
+    "name": "preame-plugin-V2",
+    "version": "0.0.2",
+    "description": "Description of your plugin.",
+    "summary": "Summary of your plugin",
+    "languages": ["en"],
+    "author": "Samiur",
+    "helpUrl": "https://mywebsite.com/help",
+    "host": {
+      "app": "XD",
+      "minVersion": "13.0"
+    },
+    "uiEntryPoints": [
+      {
+        "type": "menu",
+        "label": "prenamePlugin",
+        "commandId": "searchForPrenames"
+      }
+    ]
+  }
