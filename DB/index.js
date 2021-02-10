@@ -11,7 +11,7 @@ app.get("/", (req,res) => {
 app.post("/", (req,res) =>{
     res.send("This is the post route")
 })
-const CONNECTION_URL = "";
+const CONNECTION_URL = "mongodb+srv://samiurkhan:arpeggio112@cluster0.uqt26.mongodb.net/test?retryWrites=true&w=majority";
 mongoose.connect(CONNECTION_URL, {useNewUrlParser: true, useUnifiedTopology: true}
     ).then(() => app.listen(PORT, () => console.log(`Server running at ${PORT}`)))
     .catch((error) => console.log(error.message));
